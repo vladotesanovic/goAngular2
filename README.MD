@@ -9,3 +9,7 @@ Angular 2 and Golang
 ```bash
 go get github.com/vladotesanovic/goAngular2.git
 ```
+
+## Features
+
+* Heroku ready

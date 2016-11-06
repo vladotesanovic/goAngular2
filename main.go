@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"os"
+
 	"github.com/julienschmidt/httprouter"
 	"github.com/urfave/negroni"
 	"github.com/vladotesanovic/goangular2/lib"
@@ -12,6 +14,10 @@ import (
 
 func main() {
 	router := httprouter.New()
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
 
 	router.GET("/", func(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 
@@ -35,5 +41,5 @@ func main() {
 
 	n.UseHandler(router)
 
-	http.ListenAndServe(":8080", n)
+	http.ListenAndServe(":"+port, n)
 }
