@@ -10,6 +10,9 @@ Angular 2 and Golang
 go get github.com/vladotesanovic/goAngular2.git
 ```
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Features
 
 * Heroku ready
+* govendor
