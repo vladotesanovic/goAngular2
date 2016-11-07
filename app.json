@@ -1,0 +1,12 @@
+{
+  "name": "Angular2 and Go on Heroku",
+  "description": "",
+  "keywords": [
+    "go",
+    "angular 2"
+  ],
+  "image": "heroku/go:1.7",
+  "mount_dir": "src/github.com/vladotesanovic/goAngular2",
+  "website": "https://github.com/vladotesanovic/goAngular2",
+  "repository": "https://github.com/vladotesanovic/goAngular2"
+}
