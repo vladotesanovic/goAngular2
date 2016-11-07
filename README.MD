@@ -4,13 +4,16 @@ Angular 2 and Golang
 
 # WORK IN PROGRESS
 
-## Installation
+## Deploy to Heroku 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
+## Installation / development
 
 ```bash
 go get github.com/vladotesanovic/goAngular2.git
 ```
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Features
 
